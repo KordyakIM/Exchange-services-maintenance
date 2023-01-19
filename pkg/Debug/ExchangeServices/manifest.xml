@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="6946796c-561d-44bc-8205-ce8b0d3bad18" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ExchangeServices.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ExchangeServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=aa3f59133c92ac11" Namespace="ExchangeServices.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\ExchangeServices\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ExchangeServices_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
